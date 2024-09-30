@@ -2,6 +2,8 @@
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?style=flat&logo=styled-components&logoColor=white)](https://styled-components.com/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
+
 
 ## Descrição
 
@@ -12,6 +14,7 @@ ZENFOCUS é um projeto que oferece um timer regressivo com botões interativos, 
 - [React](https://reactjs.org/): Para criar e gerenciar estados, além de renderizar o app dinamicamente.
 - [TypeScript](https://www.typescriptlang.org/): Para trazer robustez e consistência ao app.
 - [Styled-Components](https://styled-components.com/): Para criar estilos personalizados sem utilizar CSS.
+- [Vite](https://vitejs.dev/): Um empacotador de aplicações que permite um desenvolvimento rápido e otimizado, com recarregamento instantâneo e suporte nativo para módulos ES.
 
 
 ## Uso
