@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# <img src='./src/assets/logo.webp' alt='logo zenfocus' width='45px'/> ZENFOCUS
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Styled Components](https://img.shields.io/badge/Styled%20Components-DB7093?style=flat&logo=styled-components&logoColor=white)](https://styled-components.com/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+ZENFOCUS é um projeto que oferece um timer regressivo com botões interativos, permitindo que o usuário escolha um som relaxante para tocar enquanto se concentra em uma tarefa. O timer define um período de foco de 10 minutos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Usadas
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/): Para criar e gerenciar estados, além de renderizar o app dinamicamente.
+- [TypeScript](https://www.typescriptlang.org/): Para trazer robustez e consistência ao app.
+- [Styled-Components](https://styled-components.com/): Para criar estilos personalizados sem utilizar CSS.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Uso
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+O projeto é intuitivo, permitindo que os usuários:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- Alternem entre os temas claro e escuro.
+- Iniciem, pausem e parem (resetem) o timer.
+- Escolham uma das quatro faixas relaxantes para tocar.
+- Cliquem novamente nas faixas para pausar e mudarem para outra.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Funcionalidades
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- Alternância de temas claro e escuro.
+- Contagem regressiva de 10 minutos.
+- Seleção e controle de faixas de áudio relaxantes.
+
+
+Desenvolvido por [guiBarbosa10](https://github.com/guiBarbosa10).
